@@ -1,0 +1,25 @@
+const {readFileAsync} = require('./utils/readFile');
+const {writeFileAsync}  = reauire('./utils/writeFile');
+
+
+
+
+
+
+exports.startWorkWithFile = async function (pathFile) {
+    try {
+        const content = await readFileAsync(pathFile);
+        console.log(content);
+        
+    } catch (error) {
+        console.log('error --->>>' ,error);
+        
+    }
+}
+
+
+
+
+// console.log(readFile.readFileAsync('./content/test01.txt'));
+// startWorkWithFile('./content/test01.txt');
+// startWorkWithFile('./content/test02.txt');
