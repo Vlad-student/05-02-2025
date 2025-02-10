@@ -20,6 +20,7 @@ exports.startWorkWithFile = async function (pathFile) {
 
 
 
+
 // console.log(readFile.readFileAsync('./content/test01.txt'));
 // startWorkWithFile('./content/test01.txt');
 // startWorkWithFile('./content/test02.txt');

@@ -1,3 +1,6 @@
 const { createLogFileWithDate } = require("./task/task1");
+// const { getListFiles } = require("./task/task2");
 
-createLogFileWithDate('logs');
+// getListFiles('logs');
+
+createLogFileWithDate('test');
